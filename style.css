@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:"Roboto",sans-serif;
+    background-color: rgb(209, 209, 214);
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#name{
+    position: absolute;
+    background-color: white;
+    width: fit-content;
+    opacity: 0;
+    border-radius: 5px;
+    border: 3px solid rgb(165, 165, 167);
+    font-size: 1.5rem;
+}
+#time{
+    background-color: white;
+    width: fit-content;
+    border-radius: 5px;
+    border: 3px solid rgb(165, 165, 167);
+    font-size: 1.5rem;
+}
+
+svg path{
+    cursor: pointer;
+    fill-opacity:1;
+    stroke-width:0.69999999;
+    stroke-miterlimit:4;
+    stroke-dasharray:
+    none;stroke-opacity:0
+}
+
+.ruch:hover{
+    fill: rgb(0, 102, 255);
+}
+.gor:hover{
+    fill: rgb(228, 22, 22);
+}
+.gor__ruch:hover{
+    fill: white;
+}
