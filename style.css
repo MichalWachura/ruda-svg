@@ -42,8 +42,9 @@ svg path{
     fill-opacity:1;
     stroke-width:0.69999999;
     stroke-miterlimit:4;
-    stroke-dasharray:
-    none;stroke-opacity:0
+    stroke-dasharray:none;
+    stroke-opacity:0;
+    transition: 0.3s ease-in
 }
 
 .ruch:hover{
